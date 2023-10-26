@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #3ba4cede;
+}
+
+#project {
+  background-color: #3ba4cede;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 1rem 4% 0.5rem;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 2;
+  text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 1.2rem;
+  text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
+}
+
+.navbar .navbar-nav a:hover {
+  color: aqua;
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid aqua;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+#navbarNavDropdown {
+  padding: 0 33%;
+}
+
+
+
